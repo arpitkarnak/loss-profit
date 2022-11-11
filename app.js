@@ -84,6 +84,7 @@ function calculateProfitAndLoss(initial,quantity,current){
         output1.style.display="block";
         output1.style.color="red";
         output1.style.background="rgba(132, 190, 230, 0.6)";
+        
 
 
         output1.innerText =`Total Profit: "${profit}" & Profit Percentage : ${fixProfitPercentage}%`
