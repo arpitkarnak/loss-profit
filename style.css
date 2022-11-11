@@ -11,8 +11,8 @@ label {
 #heading {
   font-weight: 1000;
   font-size: xx-large;
-  margin-top: 2rem;
-  padding-left: 7rem;
+  margin-top: 3.2rem;
+  padding-left: 35%;
   color: black;
   color: rgb(97, 0, 19);
   padding-bottom: 2rem;
@@ -22,11 +22,11 @@ label {
   color: rgb(58, 44, 44);
   font-size: larger;
   font-weight: 1000;
-  padding-left: 2rem;
+  padding-left: 20%;
 }
 
 #click-btn {
-  margin-left: 16rem;
+  margin-left: 30%;
   margin-top: 2rem;
   font-size: larger;
   font-weight: 800;
@@ -39,7 +39,7 @@ label {
 .output {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
-  padding-left: 3rem;
+  padding-left: 25%;
   padding-right: 0.8rem;
   font-weight: 600;
   font-size: larger;
