@@ -61,6 +61,34 @@ function calculateProfitAndLoss(initial,quantity,current){
         output1.innerText="Please Fill All the Value"
 
     }
+    else if(current <=0){
+
+        output1.style.display="block";
+        output1.style.color="white";
+        output1.style.background="rgba(132, 190, 230, 0.6)";
+
+        output1.innerText="Please Enter Positive Value!"
+
+    }
+    else if(initial <=0){
+
+        output1.style.display="block";
+        output1.style.color="white";
+        output1.style.background="rgba(132, 190, 230, 0.6)";
+
+        output1.innerText="Please Enter Positive Value!"
+
+    }
+    else if(quantity <=0){
+
+        output1.style.display="block";
+        output1.style.color="white";
+        output1.style.background="rgba(132, 190, 230, 0.6)";
+
+        output1.innerText="Please Enter Positive Value!"
+
+    }
+
     else if(initial > current) {
         var loss = (initial - current) * quantity;
         var lossPercentage = (loss / initial) * 100;
