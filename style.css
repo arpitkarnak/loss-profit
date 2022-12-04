@@ -49,6 +49,7 @@ input {
   font-weight: 1000;
   border: 4px solid black;
   display: inline-block;
+  background-image: none;
 }
 
 label {
